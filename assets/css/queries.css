@@ -1,0 +1,84 @@
+@media only screen and (max-width:1200px)
+{
+    .hero-text-box
+    {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row
+    { padding: 0 2%; }
+}
+@media only screen and (max-width:1023px)
+{
+    body { font-size: 18px; }
+    section { padding: 20px 0; }
+    .section--choice { margin-top: 40px;}
+    .blogbox 
+    {
+        background-color: #ffffff;
+        width: 90%;
+        margin-left:5%;
+        border-radius: 10px;
+        box-shadow: 0 5px 5px #e77c7f;
+    }
+    footer img { width: 60%;}
+    .sns-links { padding-top: 45px; margin-right: 10px; }
+    .sns-links li { font-size: 130%;}
+    footer p { font-size: 80%; }
+}
+@media only screen and (max-width:767px)
+{
+    body { font-size: 18px; }
+    section { padding: 20px 0; }
+    .row,
+    .hero-text-box { padding: 0 4%;}
+    .logo { float: right; height: 55px}
+    .col { margin: 2px; margin-bottom: 15px;  width: 100%;}
+    .main-nav { display: none;}
+    .mobile-nav { display: inline-block;}
+    .main-nav { float: left; margin-top: 30px; margin-left: 5px; }
+    .main-nav li { display: block; }
+    .main-nav li:link,
+    .main-nav li:visited { display: block; border: 0; float: right; border-bottom: 0;}
+    .main-nav li a:link,
+    .main-nav li a:visited { font-size: 100%; color: #ffffff; text-align: center; line-height: 120%; letter-spacing: 0.5px;}
+    .sticky .main-nav { margin-top: 10px;}
+    /* .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {} */
+
+    .sticky .mobile-nav {margin-top: 25px; margin-bottom: 25px;}
+    .sticky .mobile-nav i { font-size: 120%;}
+
+
+    
+    
+    
+    .long-copy { width: 100%; margin-left: 0;}
+    h1 {font-size: 180%; margin-top: 60%;}
+    .btn:link,
+    .btn:visited { margin-left: 15%;}
+    .btn-ghost:link,
+    .btn-ghost:visited { margin-left: 2%;}
+    h2 {font-size: 150%;}
+    
+    .icon-motto { padding-left: 50px;}
+    footer img { width: 40%;}
+    .sns--links { padding-top: 10px; margin-right: 25%;}
+    .sns--links li { font-size: 150%; }
+    footer p { font-size: 70%; text-align: center; }
+}
+@media only screen and (max-width:480px)
+{
+ 
+    body { font-size: 15px;}
+    .logo { height: 60px; padding-left: 20%; margin-top: 5px;}
+    .hero-text-box { padding: 0 4%; top: 25%;}
+    h1 {font-size: 18px;}
+    .fa-circle-dot { width: 10px; vertical-align: middle;}
+    .btn:link,
+    .btn:visited { padding: 7px 20px;}
+    footer img { width: 55%; margin-left: 25%;}
+    .sns--links { padding-top: 7px; margin-right: 15%;}
+
+
+}
