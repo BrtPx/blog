@@ -1,20 +1,6 @@
-<?php $this->load->view('webview/header.php'); ?>
+<?php $this->load->view('webview/header_blog.php'); ?>
 
 <header class="brands">
-    <nav>
-        <div class="row">
-            <a href="<?php echo base_url() . 'pblog/index' ?>">
-                <img src="<?= base_url() . 'assets/img/WhiteLogo.svg' ?>" alt="white_logo" class="logo">
-            </a>
-            <ul class="main-nav">
-                <li><a href="<?php echo base_url() . 'pblog/index' ?>#motto">Our Core</a></li>
-                <li><a href="<?php echo base_url() . 'pblog/index' ?>#products">Our Products</a></li>
-                <li><a href="<?php echo base_url() . 'pblog/index' ?>#info">Getting Started</a></li>
-                <li><a href="<?php echo base_url() . 'pblog/index' ?>#choice">101 Questions</a></li>
-            </ul>
-        </div>
-    </nav>
-    </div>
 </header>
 <section class="section--qualityinfo">
     <div class="row">
@@ -195,4 +181,4 @@
 
 
 
-<?php $this->load->view('webview/footer.php'); ?>
+<?php $this->load->view('webview/footer_blog.php'); ?>

@@ -17,24 +17,24 @@ class Pblog extends CI_Controller
     public function webpay()
     {
         $title['pg_title'] = "Payment Options";
-        $this->load->view('webview/web_payment', $title);
+        $this->load->view('webview/weblog_payment', $title);
     }
     public function webdel()
     {
         $title['pg_title'] = "Delivery Options";
-        $this->load->view('webview/web_delivery', $title);
+        $this->load->view('webview/weblog_delivery', $title);
     }
     public function webbrands()
     {
         $title['pg_title'] = "Quality Products";
-        $this->load->view('webview/web_quality', $title);
+        $this->load->view('webview/weblog_quality', $title);
     }
 
     // Blog Posts - Static
     public function iosblog()
     {
         $title['pg_title'] = "iPhones";
-        $this->load->view('webview/webposts/iosblog_static.php', $title);
+        $this->load->view('webview/webposts/iosblog.php', $title);
     }
     public function androidblog()
     {
@@ -66,11 +66,4 @@ class Pblog extends CI_Controller
         $title['pg_title'] = "Hot vs Cold";
         $this->load->view('webview/webposts/heatcoldblog.php', $title);
     }
-
-
-    // //Dynamic Jquery
-    // public function gen_blogpost()
-    // {
-    //     $this->load->view('webview/webposts/iosblog');
-    // }
 }

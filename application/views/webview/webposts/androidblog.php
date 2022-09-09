@@ -1,23 +1,8 @@
-<?php $this->load->view('webview/header.php'); ?>
+<?php $this->load->view('webview/header_blog.php'); ?>
 
 <header class="android--header">
-    <nav>
-        <nav>
-            <div class="row">
-                <a href="<?php echo base_url() . 'pblog/index' ?>">
-                    <img src="<?= base_url() . 'assets/img/WhiteLogo.svg' ?>" alt="white_logo" class="logo">
-                </a>
-                <ul class="main-nav">
-                    <li><a href="<?php echo base_url() . 'pblog/index' ?>#motto">Our Core</a></li>
-                    <li><a href="<?php echo base_url() . 'pblog/index' ?>#products">Our Products</a></li>
-                    <li><a href="<?php echo base_url() . 'pblog/index' ?>#info">Getting Started</a></li>
-                    <li><a href="<?php echo base_url() . 'pblog/index' ?>#choice">101 Questions</a></li>
-                </ul>
-            </div>
-        </nav>
-        </div>
 </header>
-<section class="post">
+<section class="post js--section-post">
     <div class="row">
         <h2>The Best Android?</h2>
     </div>
@@ -91,4 +76,4 @@
     </div>
 </section>
 
-<?php $this->load->view('webview/footer.php'); ?>
+<?php $this->load->view('webview/footer_blog.php'); ?>

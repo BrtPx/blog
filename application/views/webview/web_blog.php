@@ -1,19 +1,6 @@
-<?php $this->load->view('webview/header.php'); ?>
+<?php $this->load->view('webview/header_blog.php'); ?>
 
 <header>
-    <nav>
-        <div class="row">
-            <a class="mobile-nav js--mobile-nav"><i class="fa-solid fa-bars"></i></a>
-            <a href="<?php echo base_url() . 'pblog/index' ?>">
-                <img src="<?= base_url() . 'assets/img/WhiteLogo.svg' ?>" alt="white_logo" class="logo"></a>
-            <ul class="main-nav js--main-nav">
-                <li><a href="#motto">Our Core</a></li>
-                <li><a href="#products">Our Products</a></li>
-                <li><a href="#info">Getting Started</a></li>
-                <li><a href="#choice">101 Questions</a></li>
-            </ul>
-        </div>
-    </nav>
     <div class="hero-text-box">
         <h1><span style="color:#d6272d">Patazon(e)</span><br> For (e)xcellent Products and Services.</h1>
         <a class="btn btn-full" href="#motto"> Find Out More</a>
@@ -304,4 +291,4 @@
 </section>
 
 
-<?php $this->load->view('webview/footer.php'); ?>
+<?php $this->load->view('webview/footer_blog.php'); ?>

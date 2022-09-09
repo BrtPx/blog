@@ -1,32 +1,15 @@
-<?php $this->load->view('webview/header.php'); ?>
+<?php $this->load->view('webview/header_blog.php'); ?>
 
 <header class="cooker--header">
-    <nav>
-        <nav>
-            <div class="row">
-                <a href="<?php echo base_url() . 'pblog/index' ?>">
-                    <img src="<?= base_url() . 'assets/img/WhiteLogo.svg' ?>" alt="white_logo" class="logo">
-                </a>
-                <ul class="main-nav">
-                    <li><a href="<?php echo base_url() . 'pblog/index' ?>#motto">Our Core</a></li>
-                    <li><a href="<?php echo base_url() . 'pblog/index' ?>#products">Our Products</a></li>
-                    <li><a href="<?php echo base_url() . 'pblog/index' ?>#info">Getting Started</a></li>
-                    <li><a href="<?php echo base_url() . 'pblog/index' ?>#choice">101 Questions</a></li>
-                </ul>
-            </div>
-        </nav>
-        </div>
 </header>
-<section class="post">
+<section class="post js--section-post">
     <div class="row">
         <h2>I Can Cook, If only I had...</h2>
     </div>
-    <div class="row">
-        <p class="longcopy">
-            For all your delicious home-cooked meals.<br />
-            Patazon provides you with a variety of kitchen appliances to meet your kitchen goals and dinner plans.
-        </p>
-    </div>
+    <p class="longcopy">
+        For all your delicious home-cooked meals.<br />
+        Patazon provides you with a variety of kitchen appliances to meet your kitchen goals and dinner plans.
+    </p>
     <div class="row">
         <div class="col span-1-of-2">
             <ul>
@@ -47,4 +30,4 @@
     </div>
 </section>
 
-<?php $this->load->view('webview/footer.php'); ?>
+<?php $this->load->view('webview/footer_blog.php'); ?>

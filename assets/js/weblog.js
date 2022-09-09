@@ -9,6 +9,16 @@ $(document).ready(function () {
         offset: '80px'
 
     });
+    $('.js--section-post').waypoint(function (direction) {
+        if (direction == "down") {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    }, {
+        offset: '80px'
+
+    });
 
     $('.js--mobile-nav').click(function () {
         var nav = $('.js--main-nav');
@@ -31,12 +41,5 @@ $(document).ready(function () {
         // var imgurl = base_url + "$img";
         var url = base_url + "pblog/gen_blogpost"
         // $('post-header').css("background-image", "url (" + imgurl + ")");
-
-
-
-
     })
-
-
-
 })

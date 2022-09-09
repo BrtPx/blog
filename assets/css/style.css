@@ -56,35 +56,9 @@ a
     text-decoration: none;
     color: #b92227;
 }
-/*-----------------------------Header---------------------------*/
-header
-{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733)), url(img/hero3.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-
-}
-.payment,
-.delivery,
-.brands
-{
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-}
-
-.payment {background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/pay.jpg); }
-.delivery {background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/deli.jpg); }
-
-.brands { background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/hero2.jpg);}
-.hero-text-box
-{
-    position: absolute;
-    width: 1140px;
-    top: 40%;
-    left: 40%;
-    transform: translate(-40%, -40%);
+/*-----------------------------Nav---------------------------*/
+nav {
+    display: block;
 }
 
 .logo
@@ -95,6 +69,7 @@ header
     float: left;
     /* margin-top: 35px; */
     margin: 5px 0;
+    margin-left: 10px;
 }
 /* Main navi */
 .main-nav
@@ -102,6 +77,7 @@ header
     float: right;
     list-style: none;
     margin-top: 35px;
+    margin-right: 10px;
 }
 .main-nav li
 {
@@ -158,6 +134,37 @@ header
     font-size: 100%;
     color: #ffffff;
 }
+
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733)), url(img/hero3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.payment,
+.delivery,
+.brands
+{
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.payment {background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/pay.jpg); }
+.delivery {background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/deli.jpg); }
+.brands { background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/hero2.jpg);}
+
+.hero-text-box
+{
+    position: absolute;
+    width: 1140px;
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+}
+
 
 h1, h2, h3
 { 
@@ -639,12 +646,15 @@ h4
 .post ul
 {
     list-style: none; 
-    
+    /* list-style-position: ; */
+    /* white-space: nowrap; */
+    /* float: none; */
 }
 .post ul li
 {
     padding: 7px 0;
     font-size: 90%;
+
 }
 
 .fa-circle-dot
