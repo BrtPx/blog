@@ -1,0 +1,6 @@
+@media only screen and (max-width:992px)
+{
+    .nav-link  { margin-left: 5px; }
+    footer img { margin-left: 30%;}
+    .links { display: flex; align-items: center; justify-content: center;}
+}

@@ -3,7 +3,11 @@
 
         <div class="form-group">
             <label for="blog_heading" class="pt-5">Blog Title</label>
-            <input type="text" class="form-control pb-3" name=" blog_heading" placeholder="Give Blog Title">
+            <input type="text" class="form-control pb-3" name=" blog_heading" placeholder="Create Blog Title">
+        </div>
+        <div class="form-group">
+            <label for="blog_subheading" class="pt-5">Blog Sub-title</label>
+            <input type="text" class="form-control pb-3" name=" blog_subheading" placeholder="Create Blog Copy">
         </div>
         <div class="form-group">
             <label for="blog_content" class="pt-3">Blog Content</label>
