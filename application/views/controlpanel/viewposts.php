@@ -9,6 +9,7 @@
                 <tr>
                     <th>#. </th>
                     <th>Title</th>
+                    <th>Subtitle</th>
                     <th>Content</th>
                     <th>Image</th>
                     <th>Edit</th>
@@ -23,6 +24,7 @@
                         echo "<tr>
                         <td>" . $counter . "</td>
                         <td>" . $value['title'] . " </td>
+                        <td>" . $value['subtitle'] . " </td>
                         <td>" . $value['content'] . " </td>
                         <td><img src='" . base_url() . $value['img'] . "'class='img-fluid' width='200'> </td>
                         <td><a class=\"btn btn-info\" href='" . base_url() . 'patadash/fill_tbldata/' . $value['id'] . "'>Edit</a></td>

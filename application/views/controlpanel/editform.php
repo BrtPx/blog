@@ -6,6 +6,10 @@
             <input type="text" class="form-control pb-3" value="<?= $result[0]['title'] ?>" name=" blog_heading" placeholder="Give Blog Title">
         </div>
         <div class="form-group">
+            <label for="blog_subheading" class="pt-5">Blog Subtitle</label>
+            <input type="text" class="form-control pb-3" value="<?= $result[0]['subtitle'] ?>" name=" blog_subheading" placeholder="Give Blog Title">
+        </div>
+        <div class="form-group">
             <label for="blog_content" class="pt-3">Blog Content</label>
             <textarea class="form-control" name="blog_content" placeholder="Provide content..."><?= $result[0]['content'] ?></textarea>
         </div>

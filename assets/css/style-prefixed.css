@@ -71,7 +71,7 @@ ul.navbar-nav a:hover { color: #FFF !important;}
 /*-----------------------------Header---------------------------*/
 header
 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733)), url(img/hero3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.733)), url(img/hero3.webp);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -87,10 +87,10 @@ header
     height: 600px;
 }
 
-.payment {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.664)), to(rgba(0, 0, 0, 0.664))), url(img/pay.jpg);background-image: -o-linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/pay.jpg);background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/pay.jpg); }
-.delivery {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.664)), to(rgba(0, 0, 0, 0.664))), url(img/deli.jpg);background-image: -o-linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/deli.jpg);background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/deli.jpg); }
+.payment {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.664)), to(rgba(0, 0, 0, 0.664))), url(img/pay.webp);background-image: -o-linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/pay.webp);background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/pay.webp); }
+.delivery {background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.664)), to(rgba(0, 0, 0, 0.664))), url(img/deli.webp);background-image: -o-linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/deli.webp);background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/deli.webp); }
 
-.brands { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.664)), to(rgba(0, 0, 0, 0.664))), url(img/hero2.jpg); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/hero2.jpg); background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/hero2.jpg);}
+.brands { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.664)), to(rgba(0, 0, 0, 0.664))), url(img/hero2.webp); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/hero2.webp); background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(img/hero2.webp);}
 /* .hero-text-box
 {
     position: relative;
@@ -658,8 +658,8 @@ h4
 .android--header,
 .audio--header,
 .cooker--header,
-.tv--header,
-.fridge--header,
+.tvs--header,
+.fridges--header,
 .heatcold--header
 {
     background-size: cover;
@@ -667,14 +667,22 @@ h4
     width: 100%;
     height: 400px;
 }
-.ios--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-ios.jpg); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-ios.jpg); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-ios.jpg);}
-.android--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-android.jpg); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-android.jpg); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-android.jpg);}
-.tv--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-tv.jpg); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-tv.jpg); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-tv.jpg);}
-.audio--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-audio.jpg); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-audio.jpg); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-audio.jpg);}
-.fridge--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-fridge.jpg); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-fridge.jpg); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-fridge.jpg);}
-.cooker--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-oven.jpg); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-oven.jpg); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-oven.jpg);}
-.heatcold--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-heatcold.jpg); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-heatcold.jpg); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-heatcold.jpg);}
+.ios--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-ios.webp); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-ios.webp); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-ios.webp);}
+.android--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-android.webp); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-android.webp); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-android.webp);}
+.tvs--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-tv.webp); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-tv.webp); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-tv.webp);}
+.audio--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-audio.webp); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-audio.webp); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-audio.webp);}
+.fridges--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-fridge.webp); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-fridge.webp); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-fridge.webp);}
+.cooker--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-oven.webp); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-oven.webp); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-oven.webp);}
+.heatcold--header { background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.500)), to(rgba(0, 0, 0, 0.500))), url(img/hero-heatcold.webp); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-heatcold.webp); background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/hero-heatcold.webp);}
 
+
+.heroi img
+{
+    filter: brightness(50%);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
 .post
 {
     padding: 0;

@@ -8,7 +8,11 @@ class Pblog_Model extends CI_Model
         $this->load->database();
     }
 
-    public function grab_post()
+    public function grab_homepost()
+    {
+    }
+
+    public function grab_pagepost()
     {
     }
 }

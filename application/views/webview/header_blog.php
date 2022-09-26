@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $pg_title ?></title>
+    <title><?= $title ?></title>
     <link rel="icon" href="<?php echo base_url() ?>/az.svg" type="image/gif">
     <!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>vendors/css/grid.css"> -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>vendors/css/normalize.css">
@@ -18,8 +18,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background-color: #212529;">
-        <a class="navbar-brand mx-2" href="<?php echo base_url() . 'pblog/index' ?>">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="background-color: #212529;">
+        <a class="navbar-brand mx-2" href="<?php echo base_url() . 'blog/index' ?>">
             <img src="<?= base_url() . 'assets/img/WhiteLogo.svg' ?>" width="120" height="30" alt="white_logo" class="logo"></a>
         <button class="navbar-toggler js--mobile-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle Navigation">
 
@@ -31,19 +31,19 @@
             <ul class="navbar-nav ms-auto">
 
                 <!-- <li class="nav-item">
-                    <a class="nav-link hidden active" href="<?php echo base_url() . 'pblog/index' ?>">Start</a>
+                    <a class="nav-link hidden active" href="<?php echo base_url() . 'blog/index' ?>">Start</a>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url() . 'pblog/index#motto' ?>">Our Core</a>
+                    <a class="nav-link" href="<?php echo base_url() . 'blog/index#motto' ?>">Our Core</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url() . 'pblog/index#products' ?>">Our Products</a>
+                    <a class="nav-link" href="<?php echo base_url() . 'blog/index#products' ?>">Our Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url() . 'pblog/index#info' ?>">Getting Started</a>
+                    <a class="nav-link" href="<?php echo base_url() . 'blog/index#info' ?>">Getting Started</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo base_url() . 'pblog/index#choice' ?>">101 Questions</a>
+                    <a class="nav-link" href="<?php echo base_url() . 'blog/index#choice' ?>">101 Questions</a>
                 </li>
             </ul>
         </div>

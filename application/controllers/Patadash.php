@@ -32,8 +32,8 @@ class Patadash extends CI_Controller
         $this->load->view('controlpanel/footer');
 
         if ($_FILES) {
-            $config['upload_path'] = 'assets/uploads/';
-            $config['allowed_types']        = 'gif|jpg|jpeg|png';
+            $config['upload_path'] = 'assets/img/';
+            $config['allowed_types']        = 'gif|jpg|jpeg|png|webp';
 
             $this->upload->initialize($config);
             if (!$this->upload->do_upload('blog_image')) {
@@ -44,8 +44,9 @@ class Patadash extends CI_Controller
                 $data = array('upload_data' => $this->upload->data());
                 // blog title and content
                 $blogdata['title'] = $_POST['blog_heading'];
+                $blogdata['subtitle'] = $_POST['blog_subheading'];
                 $blogdata['content'] = $_POST['blog_content'];
-                $blogdata['img'] = "assets/uploads/" . $data['upload_data']['file_name'];
+                $blogdata['img'] = "assets/img/" . $data['upload_data']['file_name'];
 
 
                 $response = $this->patadash_model->createblog($blogdata);
@@ -77,7 +78,7 @@ class Patadash extends CI_Controller
     {
         if ($_FILES['blog_image']['name']) {
 
-            $config['upload_path']          = 'assets/uploads/';
+            $config['upload_path']          = 'assets/img/';
             $config['allowed_types']        = 'gif|jpg|png|jpeg';
 
             $this->upload->initialize($config);
@@ -90,8 +91,9 @@ class Patadash extends CI_Controller
                 $id  = $_POST['blog_id'];
                 $db = array(
                     'title' => $_POST['blog_heading'],
+                    'subtitle' => $_POST['blog_subheading'],
                     'content' => $_POST['blog_content'],
-                    'img' => "assets/uploads/" . $filedata['file_name']
+                    'img' => "assets/img/" . $filedata['file_name']
                 );
                 if ($this->patadash_model->editfile($db, $id)) {
                     echo "<script>alert('Blog Post Updated')</script>";
@@ -105,6 +107,7 @@ class Patadash extends CI_Controller
             $db = array(
 
                 'title' => $_POST['blog_heading'],
+                'subtitle' => $_POST['blog_subheading'],
                 'content' => $_POST['blog_content'],
             );
             if ($this->patadash_model->editcontent($db, $id)) {

@@ -66,4 +66,12 @@ class Pblog extends CI_Controller
         $title['pg_title'] = "Hot vs Cold";
         $this->load->view('webview/webposts/heatcoldblog.php', $title);
     }
+
+    // Blog Posts- Dynamic
+    public function fillhome()
+    {
+    }
+    public function fillpage()
+    {
+    }
 }

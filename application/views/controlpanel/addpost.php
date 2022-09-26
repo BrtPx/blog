@@ -3,18 +3,18 @@
 
         <div class="form-group">
             <label for="blog_heading" class="pt-5">Blog Title</label>
-            <input type="text" class="form-control pb-3" name=" blog_heading" placeholder="Create Blog Title">
+            <input type="text" class="form-control pb-3" name="blog_heading" placeholder="Create Blog Title">
         </div>
         <div class="form-group">
             <label for="blog_subheading" class="pt-5">Blog Sub-title</label>
-            <input type="text" class="form-control pb-3" name=" blog_subheading" placeholder="Create Blog Copy">
+            <input type="text" class="form-control pb-3" name="blog_subheading" placeholder="Create Blog Copy">
         </div>
         <div class="form-group">
             <label for="blog_content" class="pt-3">Blog Content</label>
             <textarea class="form-control" name="blog_content" placeholder="Provide content..."></textarea>
         </div>
         <div class="form-group">
-            <input type="file" class="form-control-file pt-5 pb-5" name="blog_image" placeholder="Add Image">
+            <input type="file" class="form-control-file pt-5 pb-5" name="blog_image" placeholder="Add Image: 1000x500">
         </div>
         <div class="text-center">
             <button type="submit" class="btn btn-primary">Save Changes</button>

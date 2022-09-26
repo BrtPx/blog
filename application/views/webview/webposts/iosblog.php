@@ -1,7 +1,10 @@
 <?php $this->load->view('webview/header_blog.php'); ?>
 
-<header class="ios--header">
-</header>
+<!-- <header class="ios--header">
+</header> -->
+<div class="heroi bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white">
+    <img class="img-fluid" src="img/hero-ios.webp">
+</div>
 <section class="post js--section-post">
     <div class="container">
         <div class="row">

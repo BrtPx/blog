@@ -25,6 +25,7 @@
             <h3>Swift</h3>
             <p>
                 Stress Free Shopping! With great products, from dependable brands. Friendly customer service, prompt delivery and after sales services.
+            </p>
         </div>
         <div class="col-sm">
             <i class="fas fa-stopwatch icon-motto"></i>
@@ -49,7 +50,7 @@
         <div class="row gx-2 gy-2">
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img src="<?= base_url(); ?>assets/img/1.jpeg" alt="smartphone">
+                    <img src="<?= base_url(); ?>assets/img/1.webp" alt="smartphone">
                     <div class="overlay">
                         <a class="info" href="https://patazone.co.ke/shop/Smart%20Phones/MQ==" target="_blank">View Shop</a>
                     </div>
@@ -57,7 +58,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img src="<?= base_url(); ?>assets/img/2.jpg" alt="smartphone">
+                    <img src="<?= base_url(); ?>assets/img/2.webp" alt="smartphone">
                     <div class="overlay">
                         <a class="info" href="https://patazone.co.ke/home/search?searchProducts=tv" target="_blank">View Shop</a>
                     </div>
@@ -65,7 +66,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img src="<?= base_url(); ?>assets/img/3.jpg" alt="smartphone">
+                    <img src="<?= base_url(); ?>assets/img/3.webp" alt="smartphone">
                     <div class="overlay">
                         <a class="info" href="https://patazone.co.ke/shop/Woofers%20&%20Sub%20Woofers/MjA=" target="_blank">View Shop</a>
                     </div>
@@ -73,7 +74,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img src="<?= base_url(); ?>assets/img/4.jpg" alt="smartphone">
+                    <img src="<?= base_url(); ?>assets/img/4.webp" alt="smartphone">
                     <div class="overlay">
                         <a class="info" href="https://patazone.co.ke/shop/Kettles/NDQ=" target="_blank">View Shop</a>
                     </div>
@@ -81,7 +82,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img src="<?= base_url(); ?>assets/img/5.jpg" alt="smartphone">
+                    <img src="<?= base_url(); ?>assets/img/5.webp" alt="smartphone">
                     <div class="overlay">
                         <a class="info" href="https://patazone.co.ke/shop/Freezers%20&%20Refrigerators/Mzg=" target="_blank">View Shop</a>
                     </div>
@@ -89,7 +90,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img src="<?= base_url(); ?>assets/img/6.jpg" alt="smartphone">
+                    <img src="<?= base_url(); ?>assets/img/6.webp" alt="smartphone">
                     <div class="overlay">
                         <a class="info" href="https://patazone.co.ke/shop/Cookers%20&%20Ovens/Mzc=" target="_blank">View Shop</a>
                     </div>
@@ -97,7 +98,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img src="<?= base_url(); ?>assets/img/7.jpeg" alt="smartphone">
+                    <img src="<?= base_url(); ?>assets/img/7.webp" alt="smartphone">
                     <div class="overlay">
                         <a class="info" href="https://patazone.co.ke/shop/Water%20Dispensers/Mzk=" target="_blank">View Shop</a>
                     </div>
@@ -105,7 +106,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img src="<?= base_url(); ?>assets/img/8.jpg" alt="smartphone">
+                    <img src="<?= base_url(); ?>assets/img/8.webp" alt="smartphone">
                     <div class="overlay">
                         <a class="info" href="https://patazone.co.ke/shop/Furniture%20&%20Bath/Mjk=" target="_blank">View Shop</a>
                     </div>
@@ -161,29 +162,34 @@
     <h2>101 Questions</h2>
     <div class="container">
         <div class="row justify-content-around">
-            <div class="col-lg-4 col-sm-6">
+            <!-- echo '
+            <pre>'
+            <?= print_r($blogcol) ?>
+            echo '</pre>' -->
+            <?php foreach ($blogcol['bposts'] as $blogbody) :
+                echo '<div class="col-lg-4 col-sm-6">
                 <div class="blogbox">
                     <div>
-                        <h5>iPhones</h5>
+                    <h5>' . $blogbody->title . '</h5>
                     </div>
                     <div>
-                        <img src="<?= base_url(); ?>assets/img/iphone.jpg" alt="ios">
+                    <img src="' . base_url() .  $blogbody->img . '" width="500" height="250" alt="">
                     </div>
                     <div>
-                        <p class="blog-cap">What Makes It A Must-Have?</p>
+                    <p class="blog-cap">' . $blogbody->subtitle . ' </p> 
                     </div>
                     <div>
-                        <a href="<?php echo base_url() . 'pblog/iosblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_ios"> Read More</a>
+                    <button class="btn btn-outline-danger" id="viewp" onclick="blogcontent(event, ' . $blogbody->id . ')">Read More</button>
                     </div>
                 </div>
-            </div>
+            </div>'
+
+            ?>
+            <?php endforeach; ?>
+
+            <div id="cont"></div>
         </div>
     </div>
 </section>
-
-
-
-
-
 
 <?php $this->load->view('webview/footer_blog'); ?>
