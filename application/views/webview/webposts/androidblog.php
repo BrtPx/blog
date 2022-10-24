@@ -12,19 +12,18 @@
         </p>
         <h3>With Patazon, you are spoilt for choice.</h3>
         <div class="row">
-
             <div class="col-lg-4">
-                Samsung's:
+                <a href="https://patazone.co.ke/home/search?searchProducts=galaxy" target="_blank">Samsung's</a> Galaxy:
                 <ul>
-                    <li><i class="fa-solid fa-circle-dot"></i>Galaxy A series</li>
-                    <li><i class="fa-solid fa-circle-dot"></i>Galaxy F series</li>
-                    <li><i class="fa-solid fa-circle-dot"></i>Galaxy M series </li>
-                    <li><i class="fa-solid fa-circle-dot"></i>Galaxy Note series</li>
-                    <li><i class="fa-solid fa-circle-dot"></i>Galaxy Z series</li>
+                    <li><i class="fa-solid fa-circle-dot"></i>A series</li>
+                    <li><i class="fa-solid fa-circle-dot"></i>F series</li>
+                    <li><i class="fa-solid fa-circle-dot"></i>M series </li>
+                    <li><i class="fa-solid fa-circle-dot"></i>Note series</li>
+                    <li><i class="fa-solid fa-circle-dot"></i>Z series</li>
                 </ul>
             </div>
             <div class="col-lg-4">
-                Infinix smartphones:
+                <a href="https://patazone.co.ke/brand/mlptz-infinix-shop/MTgz" target="_blank">Infinix</a> smartphones:
                 <ul>
                     <li><i class="fa-solid fa-circle-dot"></i>Smart series</li>
                     <li><i class="fa-solid fa-circle-dot"></i>Note series </li>
@@ -32,7 +31,7 @@
                 </ul>
             </div>
             <div class="col-lg-4">
-                Tecno smartphones:
+                <a href="https://patazone.co.ke/brand/mlptz-tecno-shop/MjI4" target="_blank">Tecno</a> smartphones:
                 <ul>
                     <li><i class="fa-solid fa-circle-dot"></i>Camon series</li>
                     <li><i class="fa-solid fa-circle-dot"></i>Spark series</li>
@@ -42,7 +41,7 @@
         </div>
         <div class="row">
             <div class="col-lg-4">
-                Itel smartphones:
+                <a href="https://patazone.co.ke/brand/mlptz-itel-shop/MjI0" target="_blank">Itel</a> smartphones:
                 <ul>
 
                     <li><i class="fa-solid fa-circle-dot"></i>A series</li>
@@ -52,7 +51,7 @@
             </div>
             <div class="col-lg-4">
 
-                Vivo smartphones:
+                <a href="https://patazone.co.ke/brand/mlptz-vivo-shop/MjUz" target="_blank">Vivo</a> smartphones:
                 <ul>
 
                     <li><i class="fa-solid fa-circle-dot"></i>V series </li>
@@ -60,7 +59,7 @@
                 </ul>
             </div>
             <div class="col-lg-4">
-                Oppo smartphones:
+                <a href="https://patazone.co.ke/brand/mlptz-oppo-shop/MjEy" target="_blank">Oppo</a> smartphones:
                 <ul>
                     <li><i class="fa-solid fa-circle-dot"></i>A series </li>
                     <li><i class="fa-solid fa-circle-dot"></i>Reno series</li>
@@ -69,13 +68,25 @@
         </div>
         <div class="row">
             <div class="col-lg-4">
-                Xiaomi smartphones:
+                <a href="https://patazone.co.ke/brand/mlptz-xiaomi-shop/MjMx" target="_blank">Xiaomi</a> smartphones:
                 <ul>
                     <li><i class="fa-solid fa-circle-dot"></i>Redmi series </li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <a href="https://patazone.co.ke/brand/mlptz-nokia-shop/Mjgz" target="_blank">Nokia</a> smartphones:
+                <ul>
+                    <li><i class="fa-solid fa-circle-dot"></i>Nokia 1.4 </li>
+                    <li><i class="fa-solid fa-circle-dot"></i>Nokia 2.4 </li>
+                    <li><i class="fa-solid fa-circle-dot"></i>Nokia 3.4 </li>
+                    <li><i class="fa-solid fa-circle-dot"></i>Nokia 5.4 </li>
+                    <li><i class="fa-solid fa-circle-dot"></i>Nokia 6.2 </li>
+                    <li><i class="fa-solid fa-circle-dot"></i>Nokia 7.2 </li>
+                    <li><i class="fa-solid fa-circle-dot"></i>G series </li>
                 </ul>
             </div>
         </div>
     </div>
 </section>
 
-<?php $this->load->view('webview/footer_blog.php'); ?>
+<?php $this->load->view('webview/footer_pblog.php'); ?>

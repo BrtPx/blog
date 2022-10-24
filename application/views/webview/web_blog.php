@@ -134,7 +134,7 @@
                         </ul>
                     </div>
                     <div>
-                        <a href="<?php echo base_url() . 'blog/webpay' ?>" class="btn btn-outline-danger btn-ghost">Find Out More</a>
+                        <a href="<?php echo base_url() . 'pblog/webpay' ?>" class="btn btn-outline-danger btn-ghost">Find Out More</a>
                     </div>
                 </div>
             </div>
@@ -151,7 +151,7 @@
                         </ul>
                     </div>
                     <div>
-                        <a href="<?php echo base_url() . 'blog/webdel' ?>" class="btn btn-outline-danger btn-ghost">Find Out More</a>
+                        <a href="<?php echo base_url() . 'pblog/webdel' ?>" class="btn btn-outline-danger btn-ghost">Find Out More</a>
                     </div>
                 </div>
             </div>
@@ -175,7 +175,7 @@
                         <p class="blog-cap">What Makes It A Must-Have?</p>
                     </div>
                     <div>
-                        <a href="<?php echo base_url() . 'blog/iosblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_ios"> Read More</a>
+                        <a href="<?php echo base_url() . 'pblog/iosblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_ios"> Read More</a>
                     </div>
                 </div>
             </div>
@@ -191,7 +191,7 @@
                         <p class="blog-cap">The Best Android Smartphone?</p>
                     </div>
                     <div>
-                        <a href="<?php echo base_url() . 'blog/androidblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_android"> Read More</a>
+                        <a href="<?php echo base_url() . 'pblog/androidblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_android"> Read More</a>
                     </div>
                 </div>
             </div>
@@ -207,7 +207,7 @@
                         <p class="blog-cap">For Movie and Game Nights?</p>
                     </div>
                     <div>
-                        <a href="<?php echo base_url() . 'blog/tvblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_tvs"> Read More</a>
+                        <a href="<?php echo base_url() . 'pblog/tvblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_tvs"> Read More</a>
                     </div>
                 </div>
             </div>
@@ -223,7 +223,7 @@
                         <p class="blog-cap">How Loud Do You want To Be?</p>
                     </div>
                     <div>
-                        <a href="<?php echo base_url() . 'blog/audioblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_audios"> Read More</a>
+                        <a href="<?php echo base_url() . 'pblog/audioblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_audios"> Read More</a>
                     </div>
                 </div>
             </div>
@@ -239,7 +239,7 @@
                         <p class="blog-cap">It's Freezing In Here!</p>
                     </div>
                     <div>
-                        <a href="<?php echo base_url() . 'blog/fridgeblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_ios"> Read More</a>
+                        <a href="<?php echo base_url() . 'pblog/fridgeblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_ios"> Read More</a>
                     </div>
                 </div>
             </div>
@@ -255,7 +255,7 @@
                         <p class="blog-cap">I Can Cook, If Only I had...</p>
                     </div>
                     <div>
-                        <a href="<?php echo base_url() . 'blog/cookerblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_android"> Read More</a>
+                        <a href="<?php echo base_url() . 'pblog/cookerblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_android"> Read More</a>
                     </div>
                 </div>
             </div>
@@ -271,7 +271,7 @@
                         <p class="blog-cap">Weather Woes?</p>
                     </div>
                     <div>
-                        <a href="<?php echo base_url() . 'blog/heatcoldblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_tvs"> Read More</a>
+                        <a href="<?php echo base_url() . 'pblog/heatcoldblog' ?>" class="btn btn-outline-danger btn-ghost" id="btn_tvs"> Read More</a>
                     </div>
                 </div>
             </div>
@@ -280,4 +280,4 @@
 </section>
 
 
-<?php $this->load->view('webview/footer_blog.php'); ?>
+<?php $this->load->view('webview/footer_pblog.php'); ?>

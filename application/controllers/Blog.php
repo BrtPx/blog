@@ -21,6 +21,23 @@ class Blog extends CI_Controller
         $this->load->view('webview/blogposts', $data);
     }
 
+    public function webprod()
+    {
+        $data['title'] = "Genuine and Reliable";
+        $this->load->view('webview/weblog_quality', $data);
+    }
+
+    public function webpay()
+    {
+        $data['title'] = "Payment Options";
+        $this->load->view('webview/weblog_payment', $data);
+    }
+    public function webdel()
+    {
+        $data['title'] = "Shipping and Delivery";
+        $this->load->view('webview/weblog_delivery', $data);
+    }
+
     public function addPostDetails($id)
     {
         // $data['postdetails'] = $this->blog_model->getpostDetails();

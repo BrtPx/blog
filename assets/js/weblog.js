@@ -66,14 +66,5 @@ $(document).ready(function () {
             icon.addClass('fa-bars');
             icon.removeClass('fa-xmark');
         }
-
     });
-
-
-
-
-
-
-
-
 })

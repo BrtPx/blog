@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="footer-copyright text-center py-2">
-        <p>Copyright &copy; Patazone. All Rights Reserved.</p>
+        <p>Copyright &copy; Patazon. All Rights Reserved.</p>
     </div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
@@ -28,10 +28,9 @@
 <script src="<?= base_url(); ?>assets/js/weblog.js"></script>
 <script>
     var base_url = '<?= base_url() ?>'
+    // var title = '<?= $title; ?>'
 </script>
-<?php if ($title == 'Post') : ?>
-    <script src="<?= base_url() ?>assets/js/details.js"></script>
-<?php endif; ?>
+
 
 
 </html>
