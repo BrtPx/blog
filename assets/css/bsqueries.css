@@ -4,3 +4,19 @@
     footer img { margin-left: 30%;}
     .links { display: flex; align-items: center; justify-content: center;}
 }
+@media only screen and (max-width:767px)
+{
+.logo { padding-left: 25%; height: 60px;  }
+.main-nav { display: none;}
+.mobile-nav {padding-left: 2%; display: none;}
+.sticky .main-nav { margin-top: 13px; padding: 2px; float: left; }
+.sticky .mobile-nav {margin-top: 15px; margin-bottom: 25px; display: block;}
+.sticky .mobile-nav i { font-size: 120%;}
+/* .sticky .main-nav ul {  direction: rtl; } */
+.sticky .main-nav li { display: block; }
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{display: block; padding: 1px 0; color: #000;}
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {color: #d6272d; }
+
+}

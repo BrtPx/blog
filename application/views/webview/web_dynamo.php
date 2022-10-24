@@ -3,18 +3,13 @@
 <header>
     <div class="container">
         <div class="row">
-            <p class="hero-text fs-1 text-center"><span style="color: #c7252a">Patazon Marketplace</span></p>
-            <p class="hero-text-tag fs-3 text-center pt-0"><span style="color: #FFF">The only choice for premium and accessible shopping experience.</span></p>
-            <div class="d-grid d-md-block mx-auto">
-                <a class="btn btn-lg btn-danger active" aria-pressed="true" href="#motto"> Find Out More</a>
-                <a class="btn btn-lg btn-outline-danger" href="https://patazone.co.ke/">Shop</a>
-            </div>
+       
         </div>
     </div>
 
 </header>
 
-<section class="section--motto js--section-motto container page-section" id="motto">
+<section class="section--motto container js--section-motto page-section" id="motto">
     <h2>Our Core</h2>
     <p class="long-copy text-start">
         Hello, Karibu. We are Patazon. A reliable online store, built from a shared dream of creating a product dedicated to providing great services.
@@ -120,7 +115,24 @@
     <h2>Getting you up and ready</h2>
     <div class="container">
         <div class="row justify-content-center mx-auto gy-3">
-            <div class="col-lg-6">
+            <div class="col-lg-4">
+                <div class="info--box">
+                    <div>
+                        <h5>Genuine Products</h5>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="fa-solid fa-check icon-small"></i>Trusted Brands</li>
+                            <li><i class="fa-solid fa-check icon-small"></i>Variety</li>
+                            <li><i class="fa-solid fa-check icon-small"></i>Warranties</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="<?php echo base_url() . 'blog/webprod' ?>" class="btn btn-danger btn-ghost">Find Out More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
                 <div class="info--box">
                     <div>
                         <h5>Great Prices</h5>
@@ -133,11 +145,11 @@
                         </ul>
                     </div>
                     <div>
-                        <a href="<?php echo base_url() . 'pblog/webpay' ?>" class="btn btn-outline-danger btn-ghost">Find Out More</a>
+                        <a href="<?php echo base_url() . 'blog/webpay' ?>" class="btn btn-outline-danger btn-ghost">Find Out More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-4">
                 <div class="info--box">
                     <div>
                         <h5>Quick Delivery</h5>
@@ -150,7 +162,7 @@
                         </ul>
                     </div>
                     <div>
-                        <a href="<?php echo base_url() . 'pblog/webdel' ?>" class="btn btn-outline-danger btn-ghost">Find Out More</a>
+                        <a href="<?php echo base_url() . 'blog/webdel' ?>" class="btn btn-outline-danger btn-ghost">Find Out More</a>
                     </div>
                 </div>
             </div>
